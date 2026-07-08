@@ -11,7 +11,6 @@
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
   </head>
   <body>
-    <!-- SPLASH SCREEN -->
     <div class="splash-screen" id="splashScreen">
       <div class="splash-content">
         <div class="hello-kitty">
@@ -72,13 +71,26 @@
           <input
             type="text"
             id="courseName"
-            placeholder=" Course Name"
+            placeholder="Course Name"
             value=""
           />
         </div>
         <div class="field" style="flex: 1.2">
           <label for="profName">Professor</label>
           <input type="text" id="profName" placeholder="Prof's name" value="" />
+        </div>
+        <div class="field" style="flex: 0.8">
+          <label for="roomName">Room #</label>
+          <input type="text" id="roomName" placeholder="Room #" value="" />
+        </div>
+        <div class="field" style="flex: 0.8">
+          <label for="buildingName">Building #</label>
+          <input
+            type="text"
+            id="buildingName"
+            placeholder="Building #"
+            value=""
+          />
         </div>
         <div class="field field-days">
           <label>Days</label>
@@ -119,7 +131,6 @@
         <div class="schedule-grid" id="scheduleGrid"></div>
       </div>
 
-      <!-- Image options + user image upload with 3 buttons -->
       <div class="image-options" id="imageOptions">
         <div class="option-group">
           <label for="decoStyle">Decoration</label>
@@ -161,7 +172,6 @@
           <span class="deco-preview" id="decoPreview">🌸</span>
         </div>
 
-        <!-- USER IMAGE UPLOAD – 3 buttons -->
         <div class="img-upload-group">
           <label>Add Image</label>
           <input type="file" id="userImageInput" accept="image/*" />
